@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Monkey
   m_EditorClassIdentifier: 
   prefab: {fileID: 7690975967131011000, guid: 43315a2e91eca324a938eef152620845, type: 3}
-  IsOpen: 1
   label: Monkey
-  level: {fileID: 102900000, guid: e6862869906068644aa38908d96d0ccd, type: 3}
+  level:
+    sceneAsset: {fileID: 102900000, guid: e6862869906068644aa38908d96d0ccd, type: 3}
+    scenePath: Assets/Scenes/Levels/Monkey.unity
   brokenRotation: {x: 0, y: 135, z: 0}

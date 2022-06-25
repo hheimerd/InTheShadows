@@ -170,7 +170,7 @@ public class LevelSelector : MonoBehaviour
 
     public void LoadLevel()
     {
-        SceneManager.LoadScene(SelectedLevel.Level.name);
+        SceneManager.LoadScene(SelectedLevel.Level.ScenePath);
     }
 
     public void LoadMainMenu()

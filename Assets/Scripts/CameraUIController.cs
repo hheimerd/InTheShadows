@@ -31,7 +31,7 @@ public class CameraUIController : MonoBehaviour
         _selectedButton = null;
         
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (!Physics.Raycast(ray, out RaycastHit hit)) return;
+        if (!Physics.Raycast(ray, out RaycastHit hit, 10)) return;
 
         if (hit.collider.CompareTag("UIReflector"))
         {

@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 1711191755504284753, guid: f024619dabd7c774892e5576bdecd9d5, type: 3}
   label: Teapot
-  level: {fileID: 102900000, guid: 770aaf884c3539440afbf736149d0844, type: 3}
+  level:
+    sceneAsset: {fileID: 102900000, guid: 770aaf884c3539440afbf736149d0844, type: 3}
+    scenePath: Assets/Scenes/Levels/Teapot.unity
   brokenRotation: {x: 35.745316, y: 291.1071, z: 225.14711}

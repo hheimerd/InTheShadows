@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class MouseSwing : MonoBehaviour
 {
-    [Range(0, 90)]
-    [SerializeField] 
-    float swingIntencity = 1; 
+    [Range(0, 90)] [SerializeField] float swingIntencity = 1;
     private Vector3 _startRotation;
+
     private Vector3 _newRotation;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +20,7 @@ public class MouseSwing : MonoBehaviour
         var k = mousePosition / maxScreenSize;
         return Mathf.Lerp(-swingIntencity, swingIntencity, k);
     }
-    
+
     // Update is called once per frame
     void Update()
     {
@@ -29,6 +29,8 @@ public class MouseSwing : MonoBehaviour
 
         _newRotation.y = _startRotation.y + GetRotationAngle(mousePosition.x, Screen.width);
         _newRotation.x = _startRotation.x - GetRotationAngle(mousePosition.y, Screen.height);
-        transform.eulerAngles = _newRotation;
+
+        
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(_newRotation), 4 * Time.deltaTime);
     }
 }

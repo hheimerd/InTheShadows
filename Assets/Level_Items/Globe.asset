@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Globe
   m_EditorClassIdentifier: 
   prefab: {fileID: 3322570956241485885, guid: f48ab106d9653114fa4be6325e79eebe, type: 3}
-  IsOpen: 0
   label: Globe
-  level: {fileID: 102900000, guid: c26eb19d04b97214b9f68192a7464c07, type: 3}
+  level:
+    sceneAsset: {fileID: 102900000, guid: c26eb19d04b97214b9f68192a7464c07, type: 3}
+    scenePath: Assets/Scenes/Levels/Globe.unity
   brokenRotation: {x: -90, y: -90, z: 0}

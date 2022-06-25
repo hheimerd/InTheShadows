@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 5719355527986750796, guid: 0fa3a2b7f3a2cf943b74414cc112fc69, type: 3}
   label: Elephant
-  level: {fileID: 102900000, guid: 6087b05517b39be42ac5a126e25caedd, type: 3}
+  level:
+    sceneAsset: {fileID: 102900000, guid: 6087b05517b39be42ac5a126e25caedd, type: 3}
+    scenePath: Assets/Scenes/Levels/Elephant.unity
   brokenRotation: {x: 321.56482, y: 96.070656, z: 267.76328}
