@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7f5a3651e26df84fb3589c3bc5ead13, type: 3}
+  m_Name: Teapot
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1711191755504284753, guid: f024619dabd7c774892e5576bdecd9d5, type: 3}
+  label: Teapot
+  level: {fileID: 102900000, guid: 770aaf884c3539440afbf736149d0844, type: 3}
+  brokenRotation: {x: 35.745316, y: 291.1071, z: 225.14711}
